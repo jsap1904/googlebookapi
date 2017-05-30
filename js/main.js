@@ -1,5 +1,19 @@
 function bookSearch() {
-	console.log('this function runs!')
+	var search = document.getElementById('search').value
+	document.getElementById("results").innerHTML = ""
+	console.log('search')
+...
+
+$.ajax ({
+	url: "https://www.googleapis.com/books/v1/volumes?q=" + 
+
+	success: function(data) {
+		console.log(data)
+	},
+
+	type: 'GET'
+
+});
 
 }
 
