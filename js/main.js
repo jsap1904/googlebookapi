@@ -8,7 +8,11 @@ $.ajax ({
 	url: "https://www.googleapis.com/books/v1/volumes?q=" + 
 
 	success: function(data) {
-		console.log(data)
+		var results = document.getElementById.("results")
+		for(i=0; i<data.items.length; i++){
+			results.innerHTML += "<h2>" + data.items[i].volumeInfo.title + "</h2>"
+		}
+		
 	},
 
 	type: 'GET'
