@@ -20,21 +20,21 @@ $.ajax ({
 			text.className = "text"
 
 			var image = document.createElement("img")
-			img.src += books.items[i].volumeInfo.imageLinks.thumbnail
+			image.src += data.items[i].volumeInfo.imageLinks.thumbnail
 			image.className = "thumbnail"
 			div.appendChild(image)
-			var titleText = document.createTextNode( books.items[i].volumeInfo.title)
+			var titleText = document.createTextNode(data.items[i].volumeInfo.title)
 			var title = document.createElement("h3")
 			title.appendChild(titleText)
 			text.appendChild(title)
 			div.appendChild(text)
 
-			var authorsText = document.createTextNode(books.items[i].volumeInfo.authors)
+			var authorsText = document.createTextNode(data.items[i].volumeInfo.authors)
 			var authors = document.createElement("h4")
 			authors.appendChild(authorsText)
 			text.appendChild(authors)
 
-			var descriptionText = document.createTextNode(books.items[i].searchInfo.textSnippet)
+			var descriptionText = document.createTextNode(data.items[i].searchInfo.textSnippet)
 			var description = document.createElement("h5") 
 			description.appendChild(descriptionText)
 			text.appendChild(description)
@@ -53,7 +53,7 @@ $.ajax ({
 			textLink.appendChild(moreInfo)
 			btn.appendChild(textLink)
 			div.appendChild(btn)
-			console.log(books.items[i])
+			console.log(data.items[i])
 
 
 

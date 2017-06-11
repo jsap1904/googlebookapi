@@ -1,0 +1,53 @@
+body {
+	text-align: center;
+	background-image: ;
+
+}
+h1 {
+
+}
+
+.book {
+	padding-top: 20px;
+	padding-bottom: 10px;
+	padding: 20px;
+	border-radius: 10px;
+	display: inline-block;
+	height: 550px;
+	width: 250px;
+	margin: 10px;
+	background-color: grey;
+
+}
+
+.thumbnail {
+	height: 300px;
+	padding-top: 10px;
+	margin: auto;
+	padding: 30px;
+	border-radius: 5px;
+	border: 1px solid black;
+
+}
+#results {
+	width: 100%;
+	display: block;
+	margin: 0 auto;
+}
+
+img.thumbnail {
+	height:250px;
+	width: 70%;
+}
+
+.moreinfo {    
+	margin-bottom: 20px;
+    padding: 5px 10px;
+    background-image: url(../img/titleBack.jpg);
+    border: 1px solid black;
+    box-shadow: 4px 4px 10px black;
+}
+.text {
+	height: 320px;
+	overflow: hidden
+	}
