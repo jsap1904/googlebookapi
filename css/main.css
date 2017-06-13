@@ -1,9 +1,11 @@
 body {
 	text-align: center;
 	background-image: ;
+	font-color: black;
 
 }
 h1 {
+	color: white;
 
 }
 
@@ -16,7 +18,7 @@ h1 {
 	height: 580px;
 	width: 250px;
 	margin: 10px;
-	background-color: grey;
+	background-color: blue;
 
 }
 
@@ -55,7 +57,10 @@ a {
 .text {
 	height: 240px;
 	overflow: hidden
-	}
+	color: white;
+}
+
 h5 {
 	overflow: hidden;
+	color: white;
 }
