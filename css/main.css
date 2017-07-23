@@ -3,19 +3,21 @@ body {
 	font-color: black;
 	background-image: url(../img/bg.jpg);
 	background-repeat: no-repeat;
-	background-size: initial;
+	background-size: cover;
 	background-attachment: fixed;
 	background-position: center;
 	font-family: 'Scada', sans-serif;
 
 }
 h1 {
-	color: black;
+	color: white;
 	font-family: 'Baloo Bhaina', cursive;
 
 
 }
-
+.box {
+	padding-top: 200px;
+}
 .book {
 	padding-top: 20px;
 	padding-bottom: 10px;
@@ -25,11 +27,12 @@ h1 {
 	height: 580px;
 	width: 250px;
 	margin: 10px;
-	background-color: blue;
+	background-color: black;
 	opacity: .85;
 
 
 }
+
 
 .thumbnail {
 	height: 300px;
@@ -49,6 +52,7 @@ h1 {
 img.thumbnail {
 	height:250px;
 	width: 70%;
+	opacity: 1.0;
 }
 
 button {    
